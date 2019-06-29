@@ -1,0 +1,45 @@
+html, body, #root {
+    height: 100%;
+}
+
+#root {
+    
+    width: 100% ;
+    /* background-color: lightgreen; */
+    background-image: url("https://stmed.net/sites/default/files/coastline-wallpapers-27819-9311565.jpg");
+    
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#title {
+    width: 60%; 
+    height: 100%;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.tit {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 0.7px solid black;
+    color: #777777;
+    /* margin-bottom: 4px; */
+    position: relative;
+    font-size: 100%;
+}
+
+#search_bar {
+    width: 60%; 
+    height: 100%;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+    margin-left: 250px;
+}
